@@ -17,8 +17,8 @@ def read_pdf(path):
     return text
 
 docs = []
-docs.append(read_pdf("SRMCEM_Lucknow_Overview_Updated.pdf"))
-# docs.append(read_pdf("company_legal.pdf"))
+# docs.append(read_pdf("SRMCEM_Lucknow_Overview_Updated.pdf"))
+docs.append(read_pdf("company_legal.pdf"))
 
 #Chunking
 def chunk_text(text, chunk_size=200):

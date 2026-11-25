@@ -4,7 +4,7 @@ import time
 
 #configure gemini
 genai.configure(api_key = "AIzaSyBAkU_AF_SBKufFuYrEztTHa2PKhoZRagc")
-model = genai.GenerativeModel("gemini-2.5-flash-lite")
+model = genai.GenerativeModel("gemini-3.1-flash-lite")
 
 #streamlit app
 st.set_page_config(page_title="Multi-Domain Chatbot", page_icon='🤖', layout="centered")
